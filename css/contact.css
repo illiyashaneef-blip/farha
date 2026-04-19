@@ -1,0 +1,115 @@
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #666;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #222;
+            text-transform: uppercase;
+        }
+        .title-section {
+            background-image: url('images/bg-title-page-02.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0;
+        }
+        .title-section h2 {
+            font-family: 'Courgette', cursive;
+            color: #fff;
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+        .contact-form input, .contact-form textarea {
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            padding: 15px 20px;
+            width: 100%;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: #d61c22;
+            outline: none;
+        }
+        .btn-submit {
+            background: #222;
+            color: #fff;
+            border-radius: 10px;
+            padding: 12px 55px;
+            text-transform: uppercase;
+            font-weight: 500;
+            border: none;
+            transition: all 0.3s;
+        }
+        .btn-submit:hover {
+            background: #d61c22;
+        }
+        .contact-info-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info-item i {
+            font-size: 30px;
+            color: #d61c22;
+            margin-bottom: 20px;
+        }
+        .contact-info-item h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .contact-info-item p {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .footer {
+            background: #222;
+            color: #999;
+            padding: 80px 0 0;
+        }
+        .footer h4 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin-bottom: 12px;
+            font-size: 13px;
+        }
+        .footer ul li i {
+            color: #d61c22;
+            margin-right: 10px;
+        }
+        .footer .gallery-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin: 0 5px 10px 0;
+        }
+        .footer-bottom {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            padding: 20px 0;
+            font-size: 13px;
+        }
+        .footer-bottom a {
+            color: #999;
+            margin-right: 15px;
+            font-size: 16px;
+        }
+        .footer-bottom a:hover {
+            color: #d61c22;
+        }
+        #map {
+            width: 100%;
+            height: 500px;
+            border: none;
+            display: block;
+        }
+    
+    

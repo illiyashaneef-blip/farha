@@ -1,0 +1,69 @@
+.story h4{
+    font-family: courgette;
+    font-weight: 700;
+    color: rgb(77, 2, 2);
+    margin-bottom: 0;
+}
+
+
+.story h2{
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.discover button{
+    background-color: aliceblue;
+    color: rgb(221, 147, 147);
+    font-size:2rem ;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.5s;
+
+}
+
+.discover button:hover{
+    background-color: rgb(54, 33, 33);
+    color: aliceblue;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+modal-content{
+    position: relative;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 700px;
+    background-color: black;
+    padding: 10px;
+}
+
+#closebtn{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 30px;
+    color: azure;
+    cursor: pointer;
+
+}

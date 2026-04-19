@@ -8,15 +8,21 @@
     <!-- External css -->
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- favicon -->
     <link rel="shortcut icon" href="image/farha-icon.png" type="image/x-icon">
@@ -38,81 +44,82 @@
                 <!-- Menu -->
                 <nav>
                     <ul class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href=""> Place an Order</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="Reservation.html">Reservation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="" class="button"> Place an Order</a></li>
 
                     </ul>
                 </nav>
 
-                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                <div class="hamburger"><i class="fa-solid fa-bars text-white fs-4"></i></div>
             </main>
         </header>
 
-<!-- Slider Start -->
+        <!-- Slider Start -->
 
-<main class="slider">
-
-
-    <div class="slide active ">
-        <img src="image/slide.k.png" alt="">
-        <div class="overlay"></div>
-        
-        <div class="content">
-            <h3>Welcome to </h3>
-            <h1>FARHA RESTURANT</h1>
-            <button>Book Table</button>
-        </div>
-
-    </div>
+        <main class="slider">
 
 
-    <div class="slide">
-        <img src="image/slider.f.png" alt="">
-        <div class="overlay"></div>
+            <div class="slide active ">
+                <img src="image/slide.k.png" alt="">
+                <div class="overlay"></div>
 
-        <div class="content">
-            <h3>Welcome to</h3>
-            <h1>FARHA RESTURANT </h1>
-            <button>Menu Sneak Peak</button>
-        </div>
+                <div class="content">
+                    <h3>Welcome to </h3>
+                    <h1>FARHA RESTURANT</h1>
+                    <button>Book Table</button>
+                </div>
 
-    </div>
+            </div>
 
 
+            <div class="slide">
+                <img src="image/slider.f.png" alt="">
+                <div class="overlay"></div>
 
-    <div class="slide">
-        <img src="image/slider.m.png" alt="">
-        <div class="overlay"></div>
+                <div class="content">
+                    <h3>WELCOME</h3>
+                    <h1> COME IN, RELAX ,AND ENJOY</h1>
+                    <button>Menu Sneak Peak</button>
+                </div>
 
-        <div class="content">
-            <p id="ramadan"></p>
-            <h3>Welcome to</h3>
-            <h1>FARHA RESTURANT </h1>
-            <button>Menu Sneak Peak</button>
-        </div>
-
-    </div>
-
-<!-- Arrow -->
- 
-<div class="prev">&#10094;</div>
-<div class="next">&#10095;</div>
+            </div>
 
 
 
-<!-- dots -->
+            <div class="slide">
+                <img src="image/slider.m.png" alt="">
+                <div class="overlay"></div>
 
-<div class="dots">
-<span class="dot active"></span>
-<span class="dot"></span>
-<span class="dot"></span> 
+                <div class="content">
+                    <p id="ramadan"></p>
+                    <h3>Welcome to</h3>
+                    <h1>EAT FRESH FEEL GOOD </h1>
+                    <button>Menu Sneak Peak</button>
+                </div>
 
-</div>
-</main>
+            </div>
+
+            <!-- Arrow -->
+
+            <div class="prev">&#10094;</div>
+            <div class="next">&#10095;</div>
+
+
+
+            <!-- dots -->
+
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+        </main>
 
 
 
@@ -122,6 +129,95 @@
 
     </section>
 
+    <div class="container p-5">
+        <div class="row g-5">
+            <div class="col-12 col-md-6">
+                <h1>Welcome</h1>
+
+                <h2>Welcome to Farha Restaurant</h2>
+
+                <p>At Farha Restaurant, food is more than just a meal — it’s an experience. Our chefs carefully prepare
+                    every dish using fresh ingredients, rich spices, and authentic cooking methods to deliver
+                    unforgettable
+                    taste.</p>
+
+                <p>From traditional favorites to modern dishes, we ensure every plate reflects quality, culture, and
+                    passion.</p>
+
+
+            </div>
+            <div class="col-12 col-md-6 image rounded-5 px-0 py-0">
+                <img src="image/jffytf.png" class="w-100" alt="">
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <section class="discover">
+        <div>
+            <h4>Discover</h4>
+            <h2>farha Restaurant</h2>
+
+        </div>
+
+
+    </section>
+
+    <!--menu-->
+
+    <section class="menus">
+        <div>
+            <h4>Discover</h4>
+            <h2>our menu</h2>
+        </div>
+
+        <main id="container-grid">
+            <div class="col  rounded-4 px-0 py-0 tall">
+                <img src="image/Image_fx (12).png" class="w-100" alt="">
+                <di class="overlay-text">LUNCH
+            </div>
+            </div>
+
+            <div class="col  rounded-4 px-0 py-0 tall">
+                <img src="image/dinner2.png" class="w-100" alt="">
+                <di class="overlay-text">DINNER
+            </div>
+
+            </div>
+
+            <div class="col  rounded-4 px-0 py-0">
+                <img src="image/semo.png" class="w-100" alt="">
+                <di class="overlay-text">STARTERS
+            </div>
+
+            </div>
+
+            <div class="col  rounded-4 px-0 py-0">
+                <img src="image/drinks.png" class="w-100" alt="">
+                <di class="overlay-text">HAPPY HOUR
+            </div>
+
+            </div>
+            <div class="col rounded-4 px-0 py-0 wide">
+                <img src="image/desert.png" class="w-100" alt="">
+                <di class="overlay-text">DESERT
+            </div>
+
+            </div>
+
+            <div class="col rounded-4 px-0 py-0">
+                <img src="image/ofe.png" class="w-100" alt="">
+                <di class="overlay-text">chilled
+
+            </div>
+
+            </div>
+
+        </main>
+    </section>
 
 
     <footer>
@@ -144,8 +240,8 @@
                     Activello is a good option. It has a slider built into that displays the featured image in the
                     slider.<br>
                 </p>
-                 <a href="https://buff.ly/2zaSfAQ"> Read now</a> 
- <span> 21 Dec 2017</span>
+                <a href="https://buff.ly/2zaSfAQ"> Read now</a>
+                <span> 21 Dec 2017</span>
 
 
                 <p>
@@ -153,8 +249,8 @@
                     Activello is a good option. It has a slider built into that displays the featured image in the
                     slider.<br>
                 </p>
- <a href="https://buff.ly/2zaSfAQ"> Read now</a> 
- <span> 21 Dec 2017</span>
+                <a href="https://buff.ly/2zaSfAQ"> Read now</a>
+                <span> 21 Dec 2017</span>
 
             </aside>
 
@@ -198,7 +294,12 @@
 
     </footer>
 
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
